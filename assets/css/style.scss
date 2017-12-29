@@ -5,9 +5,14 @@
 
 table {
     width: 100%;
+    border-collapse: collapse;
 }
 
 .container {
     width: 100%;
     max-width: 1024px;
+}
+
+table, th, td {
+    border: 1px solid #b5e853;
 }
