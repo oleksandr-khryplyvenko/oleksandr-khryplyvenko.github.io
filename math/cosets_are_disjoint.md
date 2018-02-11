@@ -1,15 +1,11 @@
-<html>
-<head>
- <title>cosets are disjoint</title>
+<!--html-->
+<!--head-->
+ <!--title>cosets are disjoint</title-->
  <!--script src="http://fred-wang.github.io/mathml-warning.js/mpadded-min.js"></script-->
     <!--link href="https://fred-wang.github.io/mathml.css/mathml.css" rel='stylesheet' type='text/css'-->
-</head>
-<body>
-<math xmlns='http://www.w3.org/1998/Math/MathML'>
-    <mrow><msup>
-  <mi>x</mi>
-        <mi>j</mi></msup></mrow></math><br>
-
+<!--/head-->
+<!--body-->
+<div>
 <math xmlns='http://www.w3.org/1998/Math/MathML'>
     <mrow><mi>cosets</mi><mo>&nbsp;</mo><mi>Hx</mi><mo>&nbsp;</mo><mo>&cap;</mo><mo>&nbsp;</mo><mi>Hy</mi><mo>&#x3d;</mo><mo>&varnothing;</mo><mo>&nbsp;</mo><mo>or</mo><mo>&nbsp;</mo><mi>Hx</mi><mo>&nbsp;</mo><mo>&#x3d;</mo><mo>&nbsp;</mo><mi>Hy</mi></mrow><br>
 </math>
@@ -28,5 +24,7 @@
 <math xmlns='http://www.w3.org/1998/Math/MathML'>
     <mrow><mo>then</mo><mo>&nbsp;</mo><mi>Hx</mi><mo>&nbsp;</mo><mo>&#x3d;</mo><mo>&nbsp;</mo><mi>H</mi><mo>&#x2c;</mo><mo>&nbsp;</mo><mi>Hy</mi><mo>&nbsp;</mo><mo>&#x3d;</mo><mo>&nbsp;</mo><mi>H</mi><mo>&#x2c;</mo><mo>&nbsp;</mo><mi>so</mi><mo>&nbsp;</mo><mi>Hx</mi><mo>&#x3d;</mo><mi>Hy</mi><mo>&Square;</mo></mrow>
 </math>
-</body>
-</html>
+</div>
+
+<!--/body-->
+<!--/html-->
