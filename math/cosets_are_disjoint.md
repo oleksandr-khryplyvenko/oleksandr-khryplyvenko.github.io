@@ -6,9 +6,11 @@
 <!--/head-->
 <!--body-->
 <div>
+Theorem:<br>
 <math xmlns='http://www.w3.org/1998/Math/MathML'>
     <mrow><mi>cosets</mi><mo>&nbsp;</mo><mi>Hx</mi><mo>&cap;</mo><mi>Hy</mi><mo>&#x3d;</mo><mo>&varnothing;</mo><mo>&nbsp;</mo><mo>or</mo><mo>&nbsp;</mo><mi>Hx</mi><mo>&#x3d;</mo><mi>Hy</mi></mrow><br>
 </math>
+Proof:<br>
 <math xmlns='http://www.w3.org/1998/Math/MathML'>
     <mrow><mi>suppose</mi><mo>&nbsp;</mo><mi>Hx</mi><mo>&cap;</mo><mi>Hy</mi><mo>&#x3d;</mo><mi>S</mi><mo>&NotEqual;</mo><mo>&varnothing;</mo></mrow><br>
 </math>
