@@ -229,3 +229,7 @@ math:active > semantics > *:first-child {
 math:active annotation:first-of-type {
     display: inline !important;
 }
+/* <mo linebreak="newline" />*/
+mo[linebreak="newline"] {
+    display: block;
+}
