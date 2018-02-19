@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+body {
+    background-color: white;
+    color: black;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
