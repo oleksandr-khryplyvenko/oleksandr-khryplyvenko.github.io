@@ -10,4 +10,3 @@ permalink: /about/
     Trying to grasp some math and tame it.
 
     [My linkedin](www.linkedin.com/in/tamedai)
-)
