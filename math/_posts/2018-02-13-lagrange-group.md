@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Lagrange Group
-permalink: /math/lagrange_group.html
+category: math
+# permalink: /math/lagrange_group.html
+date:   2018-02-13  +0100
 ---
 
 

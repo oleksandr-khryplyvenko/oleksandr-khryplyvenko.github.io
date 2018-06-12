@@ -1,7 +1,9 @@
 ---
-layout: page
+layout: post
 title: Cosets are disjoint
-permalink: /math/cosets_are_disjoint.html
+# permalink: /math/cosets_are_disjoint.html
+category: math
+date:   2018-02-11  +0100
 ---
 
 
