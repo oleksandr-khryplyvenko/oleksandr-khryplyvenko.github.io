@@ -1,3 +1,9 @@
+---
+layout: page
+title: Lagrange Group
+permalink: /math/lagrange_group.html
+---
+
 
 <pre>
     When you read books, some inferences aren't well explained.

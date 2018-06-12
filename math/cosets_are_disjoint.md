@@ -1,3 +1,10 @@
+---
+layout: page
+title: Cosets are disjoint
+permalink: /math/cosets_are_disjoint.html
+---
+
+
 
 Theorem:<br>
 <math xmlns='http://www.w3.org/1998/Math/MathML'>
