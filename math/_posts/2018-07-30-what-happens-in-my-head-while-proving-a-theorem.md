@@ -35,7 +35,7 @@ First, formalism.
 We're given a fact. A sequence converges. Formal definition of convergence for a sequence is:<br>
 $\forall \varepsilon > 0 \exists N: \forall n \ge N \implies |x_n - \ell| < \varepsilon$ <br>
 
-"it converges to an unique limit"<br>
+"it converges to a unique limit"<br>
 The most important word here is 'unique'<br>
 If the limit is not unique, then there should be some other limit $m \neq \ell$<br>
 Okay.<br>
