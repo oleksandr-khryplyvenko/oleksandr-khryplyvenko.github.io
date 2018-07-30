@@ -18,7 +18,7 @@ You have to understand how one's brain works.
 &nbsp; &nbsp; &nbsp; &nbsp;When you read some proof, you see only one path that worked for this case.
 You're not shown many others, non-working. In some (good) books, you can find comments
 about 'why' one or other claim is done, or how a line is derived from previous.
-It really helps. But when you're starting thinking: why they take this very exact value of epsilon,
+It really helps. But when you start thinking: why they take this very exact value of epsilon,
 or why they construct proof this way, you may find some patterns.
 
 &nbsp; &nbsp; &nbsp; &nbsp;Hint. You may <b>solve</b> the proof itself.
@@ -41,7 +41,7 @@ If the limit is not unique, then there should be some other limit $m \neq \ell$<
 Okay.<br>
 Now we have sequence converging to 2 limits, formally: <br>
 $\forall \varepsilon > 0 \exists N_1: \forall n \ge N_1 \implies |x_n - \ell| < \varepsilon$<br>
-$\forall \varepsilon > 0 \exists N_2: \forall n \ge N_2 \implies |x_n - m| < \varepsilon$<br>
+$\forall \varepsilon > 0 \exists N_2: \forall n \ge N_2 \implies |x_n - m| < \varepsilon$<br><br>
 Note, we changed variable notation (from $N$ to $N_1$ and $N_2$) only near '$\exists$' quantifier<br>
 and we haven't touched variable notation for '$\forall$' quantifier.<br>
 Why? because '$\forall$' statement is fair for any item we select. This simplifies notation a bit.
