@@ -8,23 +8,23 @@ mathjax: true
 
 {% include mathjax.html %}
 
-I bet you're wondering: "how the heck these crazy guys do analytical proofs in ML articles?"
+&nbsp; &nbsp; &nbsp; &nbsp;I bet you're wondering: "how the heck these crazy guys do analytical proofs in ML articles?"
 every time you're reading your next article on arxiv, or, maybe, in Nature.
 To an ordinary person, it seems a complete mess or even magic obtained directly from outer space after few joints.
 
-I did so. And I realised one thing: if you wanna do the same, you have to do some metalearning.
+&nbsp; &nbsp; &nbsp; &nbsp;I did so. And I realised one thing: if you wanna do the same, you have to do some metalearning.
 You have to understand how one's brain works.
 
-When you read some proof, you see only one path that worked for this case.
+&nbsp; &nbsp; &nbsp; &nbsp;When you read some proof, you see only one path that worked for this case.
 You're not shown many others, non-working. In some (good) books, you can find comments
 about 'why' one or other claim is done, or how a line is derived from previous.
 It really helps. But when you're starting thinking: why they take this very exact value of epsilon,
 or why they construct proof this way, you may find some patterns.
 
-Hint. You may <b>solve</b> the proof itself.
+&nbsp; &nbsp; &nbsp; &nbsp;Hint. You may <b>solve</b> the proof itself.
 Here I'll write how it works.
 
-&nbsp; &nbsp; &nbsp; &nbsp; Imagine you wanna proof such a theorem:
+&nbsp; &nbsp; &nbsp; &nbsp;Imagine you wanna proof such a theorem:
 "If a sequence converges, it converges to an unique limit"
 
 Ok. Let's do it, step by step.
@@ -53,7 +53,7 @@ To do this, we have to put $m$ and $\ell$ into same equasion\inequality\line som
 
 Where $m$ and $\ell$ occur in preceeding writings? Right after $\implies$ sign!<br>
 Write it down here:<br>
-       $|x_n - \ell| < \varepsilon$ and $|x_n - m| < \varepsilon$<br>
+       $|x_n - \ell| < \varepsilon$ and $|x_n - m| < \varepsilon$<br><br>
 But first $x_n$ depends on $N_1$ and second $x_n$ depends on $N_2$<br>
 We have to unify them somehow.
 If we select $N = max(N_1, N_2)$, then both sequences will converge after this $N$<br>
@@ -71,9 +71,9 @@ This means, that we have to make this very expression $m - \ell$ some how. $m$, 
 Time to refer to 'outer space' and recall the triangle inequality:<br>
 $|x_n - \ell + x_n - m| \le |x_n - \ell| + |x_n - m|$ (2)
 
-Okay... Something bitter-sweet. Sweet -  $\ell$ and $m$ are neighbours(left hand expr), bitter - there is no $\ell - m$ or something like that, and there's $2x_n$<br>
+Okay... Something bitter-sweet. Sweet, because  $\ell$ and $m$ are neighbours(left hand expr), bitter - there is no $\ell - m$ or something like that, and there's $2x_n$<br>
 Now, we have to involve one of the best quality of a mathematician - being observant. Lets observe that<br>
-$|x_n - m| = |m - x_n|$ - basic modulus property<br>
+$|x_n - m| = |m - x_n|$ - basic modulus property<br><br>
 And rewrite (2) using this observation:<br>
 $|x_n - \ell + m - x_n| \le |x_n - \ell| + |m - x_n|$
 
