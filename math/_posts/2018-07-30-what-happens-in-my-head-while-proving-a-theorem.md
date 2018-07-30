@@ -25,7 +25,7 @@ or why they construct proof this way, you may find some patterns.
 Here I'll write how it works.
 
 &nbsp; &nbsp; &nbsp; &nbsp;Imagine you wanna proof such a theorem:
-"If a sequence converges, it converges to an unique limit"
+"If a sequence converges, it converges to a unique limit"
 
 Ok. Let's do it, step by step.
 
